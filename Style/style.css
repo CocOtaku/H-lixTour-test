@@ -1,0 +1,47 @@
+:root{
+    --color-dark: #000;
+    --color-white: #fff;
+    --color-ultra-light-blue: #00FFC440;
+    --color-light-blue: #009DD6;
+    --color-dark-blue: #0F0054;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    min-width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+#Logo{
+    height: 20vh;
+    aspect-ratio: 1;
+    background: url('../Assets/logo/Logo2.png');
+    background-position: center;
+    background-size: contain;
+}
+
+#Title{
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(to right, var(--color-light-blue), var(--color-white));
+}
+
+h1{
+    color: var(--color-dark);
+}
+
+main{
+    min-height: 100vh;
+    width: 100vw;
+    background: url('../Assets/background/sky.jpg');
+    background-position: center;
+    background-size: cover;
+}
